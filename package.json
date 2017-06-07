@@ -1,0 +1,16 @@
+{
+  "name": "jesse",
+  "version": "1.0.0",
+  "description": "title",
+  "main": "fetchTitle.js",
+  "scripts": {
+    "test": "nodeunit ./tests "
+  },
+  "dependencies": {
+    "cheerio": "latest",
+    "request": "latest",
+    "jsonfile": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}

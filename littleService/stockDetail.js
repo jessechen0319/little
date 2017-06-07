@@ -1,0 +1,1 @@
+var url = `https://gupiao.baidu.com/api/stocks/stockdaybar?from=pc&os_ver=1&cuid=xxx&vv=100&format=json&stock_code=sh601016&step=3&start=&count=160&fq_type=front&timestamp=1496846898371`;
