@@ -9,7 +9,9 @@
   "dependencies": {
     "cheerio": "latest",
     "request": "latest",
-    "jsonfile": "latest"
+    "jsonfile": "latest",
+    "iconv-lite": "latest",
+    "bufferhelper": "latest"
   },
   "author": "",
   "license": "ISC"

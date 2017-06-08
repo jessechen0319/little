@@ -13,9 +13,12 @@ function  TaskRunner (isSequencialTask, timeout) {
     this.setTask = function(task){
         this.tasks.push(task);
     };
+    this.interrupt = function(){
+        clearInterval(runner);
+    };
     var that = this;
 
-    setInterval(function () {
+    var runner = setInterval(function () {
         var everyTryTime = new Date();
         var time = everyTryTime.getDate() - that.taskCostTime.getDate()
         if(time > 150000){
